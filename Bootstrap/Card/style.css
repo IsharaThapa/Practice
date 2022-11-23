@@ -1,0 +1,31 @@
+.img-fluid{
+    max-height: 170px;
+    max-width: 170px;
+}
+.card{
+    padding: 15px;
+    background-color: rgb(238, 232, 222);
+}
+.heading{
+   color:rgb(47, 131, 47);
+   padding:10px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+.main{
+   padding-bottom:30px;
+    background-color: rgb(175, 179, 184);
+}
+.body_heading{
+    color:rgb(43, 119, 43);
+}
+.bi-plus-circle-fill::before{
+   color: green;
+}
+
+@media(max-width: 770px){
+    .main__card{
+        display: flex;
+        justify-content: center;
+    }
+}
