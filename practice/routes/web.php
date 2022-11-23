@@ -22,3 +22,4 @@ Route::get('/copy', function () {
 Route::get('/car', function () {
     return view('carousel');
 });
+

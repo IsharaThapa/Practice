@@ -39,6 +39,21 @@
     </div>
   </div>
 </nav>
+
+
+
+<!-- <section class="our-team">
+  <div class="container">
+    <div class="our-team__content">
+        <h1 class="our-team__content--title">
+
+        </h1>
+    </div>
+  </div>
+</section> -->
+
+
+
 </header>
 
 
@@ -65,37 +80,148 @@
   </button>
 </div>
 
-<div class="container-fluid">
-    <div class="row ">
-        <h1 class="text-center bg-secondary p-3 mb-0">About us</h1>
-        <div class="col-md-6 mt-0">
-                <img src="/images/abc.jpg" >
+<div class="banner text-center ">About us</div>
+<div class="container-fluid about-test-section">
+  <div class="row">
+        <div class="col-md-6 about_image">
+                <img class="img-fluid about-image-img" src="/images/abc.jpg">
         </div>
-        <div class="col-md-6 p-5 ">
-                <p class="h3 text center">Company</p>
+        <div class="col-md-6 about_paragraph">
+                <h3 class=" text-center">Company</h3>
                 <p class="">eytydg dydgv  fvgdshad gdyusgad dygsad a gdyuv d gd duiadiuu daysdayy wey8y dowODASC</p>
         </div>
     </div>
+  </div>
 </div>
-<div class="container-fluid">
-    <div class="row p-5 testimonial">
-            <div class="frame">
-                <div class="row p-3 bg-secondary m-5">
-                    <div class="col-md-4 p-4">
-                        <img src="/images/test.jpg" height="270px" width="270px" class="rounded-circle">
+<!-- Carousel -->
+<div class="banner text-center ">Testimonial</div>
+<div id="carouselExampleControls" class="carousel slide about-test-section" data-bs-ride="carousel">
+  <div class="container">
+    <div class="row">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 test-img">
+              <img src="https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg" alt="" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-md-8 test-content">
+            <h4 class="test-heading">This is a title</h4>
+            <p class="test-paragraph">This is a description</p>
+            <span>Name/Designation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4 test-img">
+              <img src="https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg" alt="" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-md-8 test-content">
+            <h4 class="test-heading">This is a title</h4>
+            <p class="test-paragraph">This is a description</p>
+            <span>Name/Designation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4 test-img">
+              <img src="https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg" alt="" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-md-8 test-content">
+            <h4 class="test-heading">This is a title</h4>
+            <p class="test-paragraph">This is a description</p>
+            <span>Name/Designation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel end -->
 
-                    </div>
-                    <div class="col-md-8 p-5 ">
-                        Author name
+<!-- <div class="container-fluid">
+    <div class="row p-5 testimonial">
+            <div class="frame ">
+                <div class="row p-3 bg-secondary m-5">
+                  <div class="col-md-4 ">
+                     <img src="/images/test.jpg" class="img-fluid rounded-circle test">
+                  </div>
+                  <div class="col-md-8 ">
+                       <h3 class="author"> Author name</h3>
                         <h2>Amazing customer service </h2>
                         <p>fds    dshfb gfdhsg fgsh fyue fuuiqo bdtge bsvgsyyhen  bhsuiolkmnb cdrstyhgbv dxnsjhgbv dsjhbd xnsjhgvd xsnhvd sv dsdfc vfv bffiuygb iuhgb hhb lf fhf uhcgbsd euhfdbf d h jchvbdjfhjb hvfgf fgds</p>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-
+         </div>
+         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+           <div class="container">
+            <div class="row">
+            <div class="carousel-inner">
+              <div class="carousel-item-wrap">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <img src="/images/body.jpg" class="d-block rounded-circle img-fluid" alt="..." >
+                      </div>
+                      <div class="col-md-7">
+                        <p>bgtgv nhb cdfcv bgtgv nmhv xzadc fderv hytrewertyhb fb vcc njiug gfdserfv bgfdsetb bhfdx vdrv bv ggfv </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img src="/images/test.jpg" class="d-block rounded-circle img-fluid" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <p class="">bgtgv nhb cdfcv bgtgv nmhv xzadc fderv hytrewertyhb fb vcc njiug gfdserfv bgfdsetb bhfdx vdrv bv ggfv </p>
+                  </div>
+              </div>  
+          </div>
+            </div>
+           </div>
+    <div class="carousel-item-wrap">
+    <div class="carousel-item">
+      <div class="row">
+      <div class="col-md-5">
+        <img src="/images/test.jpg" class="d-block rounded-circle" alt="..." >
+      </div>
+        <div class="col-md-7">
+          <p>bgtgv nhb cdfcv bgtgv nmhv xzadc fderv hytrewertyhb fb vcc njiug gfdserfv bgfdsetb bhfdx vdrv bv ggfv </p>
         </div>
+      
     </div>
-
+    </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  -->
 </main>
 
 <footer>
