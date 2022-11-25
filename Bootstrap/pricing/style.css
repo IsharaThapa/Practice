@@ -1,0 +1,66 @@
+.nav-text{
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 15px;
+}
+.heading{
+    font-family: 'calibri ';
+    padding: 10px;
+    font-size: 50px;
+}
+.first-description{
+    padding-bottom: 40px;
+    color: #858585;
+    font-weight: 470;
+    font-size: 20px;
+}
+
+.card-header{
+    font-weight: 400;
+    font-size: 27px;
+}
+.body-heading{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-family: 'callibri';
+    font-size: 40px;
+    font-weight: 50;
+    
+}
+.fade-in-text{
+    color: #858585; 
+    font-size: 38px;
+    font-weight: 20;
+}
+
+.price{
+    font-size: 40px;
+    font-weight: 400;
+}
+.button-first{
+    border-color: #0D6EFD;
+    color: #0D6EFD;
+}
+.table{
+    padding-bottom: 250px;
+}
+
+.footer-heading{
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-point{
+    color: #858585;
+}
+
+.footer fade{
+    color: #858585;
+}
+.bi-bootstrap-fill:before{
+ color:rgb(91, 30, 189);
+
+}
