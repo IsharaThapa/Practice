@@ -1,0 +1,53 @@
+.header{
+    padding-top:15px;
+text-align: center;
+}
+.bi-bootstrap-fill::before{
+    font-size:56px;
+    color:rgb(119, 57, 177);
+}
+.header-paragraph{
+    font-size:20px;
+    font-family:'calibri'
+
+}
+.body h3{
+    font-weight: 400;
+    font-size:25px;
+}
+.card-detail{
+    padding-top: 25px;
+}
+.cart-heading{
+    font-weight: 600;
+    color:#b2b6bb;
+}
+.light-color{
+   color:#777575;
+   font-size:15px;
+}
+.cart-name{
+    font-weight:400;
+    font-size: 18px;
+    
+}
+.bold{
+    font-weight:500;
+}
+
+.table-data{
+    border: 1px solid var(--bs-border-color);
+    border-radius: 8px;
+}
+.full-name{
+    font-size: 14px;
+    color:#777575
+}
+
+.select{
+    background-color: #f0ecec;
+    color: #28a745;
+}
+.examplecode{
+    font-size:13px;
+}
