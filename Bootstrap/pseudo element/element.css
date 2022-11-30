@@ -1,0 +1,25 @@
+.first-row::before{
+    content: url('images/1.png');
+    bottom: 20pxpx;
+   left:25px;
+    transform: scale(0.5);
+    position: relative;
+}
+.profile-img{
+    max-width:90px;
+    max-height: 90px;
+
+}
+.light-color{
+    color:rgb(158, 161, 163);
+    font-weight:450;
+    font-size:25px;
+}
+
+.second-row::after{
+    content: url('images/2.png');
+    top: 80px;
+    left :10px;
+    transform: scale(0.5);
+    position: relative;
+}
