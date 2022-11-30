@@ -1,0 +1,22 @@
+.img{
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media(max-width:764px){
+    .img{
+        background-image: url('/assets/img/2.jpg');
+    }
+}
+@media(min-width:765px) and (max-width:991px){
+    .img{
+        background-image: url('/assets/img/3.jpg');
+    }
+}
+@media(min-width:992px){
+    .img{
+        background-image: url('/assets/img/4.jpg');
+    }
+}
