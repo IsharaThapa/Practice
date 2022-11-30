@@ -1,0 +1,22 @@
+.grid-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    /* grid-template-rows: 50px 50px;
+    gap: 40px;
+    text-align: center;  */
+    justify-content: space-around;
+    
+}
+.grid-item{
+    font-size: 25px;
+    padding:25px;
+    text-align: center; 
+}
+.grid-item-1{
+    grid-column: 1 /span 3;
+}
+.grid-item-3{
+    grid-column:2 /span 2;
+    grid-row:2 /span 2;
+}
