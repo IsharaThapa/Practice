@@ -1,0 +1,42 @@
+.services-small-heading{
+    color:rgb(133, 135, 136);
+    text-align: center;
+    font-size: 20px;
+}
+.grid-container{
+    padding:40px;
+}
+.card{
+    border-color: rgb(218, 190, 190);
+}
+.item{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap:20px;
+    column-gap:20px;
+
+}
+.service_description{
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+h5{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 20px;   
+}
+@media(max-width:991px){
+    .item{
+        grid-template-columns:1fr 1fr;
+        column-gap:40px;
+    }
+}
+ @media(max-width:767px){
+    .item{
+        display:grid;
+        grid-template-columns:1fr;
+        column-gap:40px;
+    }
+} 
