@@ -1,6 +1,9 @@
 .img-fluid{
-    max-height: 170px;
-    max-width: 170px;
+    max-height: 150px;
+    max-width: 150px;
+}
+.arrow{
+    padding-top: 150px;
 }
 .card{
     padding: 15px;
@@ -23,9 +26,21 @@
    color: green;
 }
 
+
 @media(max-width: 770px){
     .main__card{
         display: flex;
+        justify-content: center;
+    }
+        .main__card{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .row{
+        display: grid;
         justify-content: center;
     }
 }

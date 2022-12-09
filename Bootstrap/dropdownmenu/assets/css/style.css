@@ -1,0 +1,39 @@
+.logo{
+    float:left;
+}
+.menu-button{
+    background-color: transparent;
+    padding:16px;
+    border:1px solid;
+    font-size:15px;
+
+}
+.right-menu{
+    padding-right:50px;
+    float:right;
+    display:block;
+}
+.dropdown-menu{
+    display:none;
+    min-width:140px;
+    
+}
+.dropdown-menu a{
+    display:block;
+    padding:5px 16px;
+    text-decoration:none;
+
+}
+.dropdown-menu a:hover{
+    color:aquamarine;
+    background-color:black;
+}
+/* .right-menu a:hover{
+    display:block;
+} */
+.right-menu:hover .dropdown-menu{
+    display:block;
+}
+.right-menu:hover .menu-button{
+    background-color:cornflowerblue;
+}
